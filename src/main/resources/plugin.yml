@@ -1,0 +1,14 @@
+name: OfflineOnlineSpigot
+version: ${project.version}
+main: offlineonlinespigot.offlineonlinespigot.OfflineOnlineSpigot
+api-version: 1.16
+authors: [ Elliot ]
+commands:
+  oosreload:
+    description: Reload oos allowed players
+depend:
+  - ProtocolSupport
+permissions:
+  oos.reload:
+    description: lets a player reload the config
+    default: op
