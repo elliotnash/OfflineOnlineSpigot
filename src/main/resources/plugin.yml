@@ -17,3 +17,4 @@ permissions:
     default: op
   oos.restart:
     description: Restarts the server once everyone is offline
+    default: op
