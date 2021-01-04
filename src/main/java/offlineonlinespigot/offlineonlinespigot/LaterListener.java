@@ -47,6 +47,10 @@ public class LaterListener implements CommandExecutor, TabCompleter {
 
             shouldRestart = true;
 
+            if(plugin.getServer().getOnlinePlayers().isEmpty()){
+                plugin.getServer().spigot().restart();
+            }
+
         }
         if (args.length==1 && args[0].equals("cancel")){
 
