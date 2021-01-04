@@ -6,9 +6,14 @@ authors: [ Elliot ]
 commands:
   oosreload:
     description: Reload oos allowed players
+  later:
+    description: Restarts the server as soon as everyone is offline
+    usage: /later [cancel]
 depend:
   - ProtocolSupport
 permissions:
   oos.reload:
     description: lets a player reload the config
     default: op
+  oos.restart:
+    description: Restarts the server once everyone is offline

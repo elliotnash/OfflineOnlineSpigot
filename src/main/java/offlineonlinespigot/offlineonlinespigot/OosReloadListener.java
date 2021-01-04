@@ -11,7 +11,7 @@ import org.bukkit.entity.Player;
 
 import static offlineonlinespigot.offlineonlinespigot.OfflineOnlineSpigot.*;
 
-public class OosCommandListener implements CommandExecutor {
+public class OosReloadListener implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args){
         if (!sender.hasPermission("oos.reload")) return true;
