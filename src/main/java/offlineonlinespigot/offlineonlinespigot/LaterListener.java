@@ -69,7 +69,7 @@ public class LaterListener implements CommandExecutor, TabCompleter {
 
         } else return false;
 
-        return false;
+        return true;
     }
 
     @Override
