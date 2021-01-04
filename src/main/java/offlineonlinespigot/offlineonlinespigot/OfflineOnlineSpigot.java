@@ -35,8 +35,6 @@ public final class OfflineOnlineSpigot extends JavaPlugin implements Listener {
         }
         allowedUsers = config.getStringList("allowedPlayers");
 
-        System.out.println(allowedUsers.isEmpty());
-
         Bukkit.getServer().getPluginManager().registerEvents(this, this);
         getCommand("oosreload").setExecutor(new OosReloadListener());
         getCommand("later").setExecutor(new LaterListener());
